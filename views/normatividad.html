@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normatividad.css">
+    <link rel="stylesheet" href="../css/Normalize.css">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f696794974.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Normatividad</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header_container ">
+            <img class="logo" src="../img/logo.png" alt="" />
+
+            <section class="header_section">
+
+                <img class="header_img_title" src="../img/titulo header.png" alt="">
+
+            </section>
+            <nav class="nav">
+                <div class="nav__container">
+                    <label for="menu" class="nav_label">
+                        <img class="nav_menu_hambur" src="/img/menu.svg" alt="">
+                    </label>
+                    <input type="checkbox" onchange="activar()" id="menu" class="nav_input">
+
+                    <div class="nav__menu">
+                        <a class="nav__items nav_items_cta" onclick="desactivar()"  href="/views/../index.html">
+                            <div class="icons"><i class='bx bxs-home'></i></div>Inicio
+                        </a>
+                        <a class="nav__items" onclick="desactivar()" href="/views/Admisiones.html">
+                            <div class="icons"><i class='bx bx-child'></i></div>Admisiones
+                        </a>
+                        <a class="nav__items " onclick="desactivar()" href="/views/contacto.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Contactame
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/proyecto.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Proyecto Institucional
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/Especialidades.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Especialidades
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/Normatividad.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Normatividad
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()"  href="/views/galeria.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Galeria de Fotos
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <nav class="nav__menu_option">
+
+        <a class="nav__items_option" id="menu1" href="/views/proyecto.html">Proyecto Institucional</a>
+        <a class="nav__items_option" id="menu2" href="/views/Especialidades.html">Especialidades</a>
+        <a class="nav__items_option" id="menu3" href="/views/Normatividad.html">Normatividad</a>
+        <a class="nav__items_option" id="menu4" href="/views/galeria.html">Galeria de Fotos</a>
+
+    </nav>
+
+
+    <main class="main">
+        <div id="main_principal" class="main_principal">
+            <div class="main_container">
+                <h1 class="main_title">MANUAL DE CONVIVENCIA</h1>
+            </div>
+            <div class="main_text">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dignissimos tempora quidem eaque
+                    similique cumque at architecto deserunt impedit voluptatibus rerum libero esse accusantium iure ad
+                    magni iusto consectetur quibusdam necessitatibus reprehenderit deleniti, placeat minus dolorem. Rem,
+                    molestiae? Mollitia asperiores hic blanditiis quas possimus quasi ducimus sapiente magni nemo
+                    officia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dignissimos tempora quidem eaque
+                    similique cumque at architecto deserunt impedit voluptatibus rerum libero esse accusantium iure ad
+                    magni iusto consectetur quibusdam necessitatibus reprehenderit deleniti, placeat minus dolorem. Rem,
+                    molestiae? Mollitia asperiores hic blanditiis quas possimus quasi ducimus sapiente magni nemo
+                    officia?</p>
+                   <a href="../doc/MANUAL DE CONVIVENCIA.pdf" download=""><img class="main_img" src="../img/manual.svg" alt=""></a> 
+                    <a href="../doc/MANUAL DE CONVIVENCIA.pdf" download="" class="main_par">Descargar</a>
+            </div>
+        </div>
+
+    </main>
+    <script src="../js/normatividad.js"></script>
+</body>
+
+<footer>
+    <div class="footer_container">
+        <img class="footer_background" src="../img/col/domo2.png" alt="">
+        <img class="footer_img2" src="../img/ave.png" alt="">
+        <div class="footer_icons">
+            <img class="footer_img" src="../img/Nube.png" alt="">
+            <div class="footer_container_img">
+                <a href=""><i class="fab fa-facebook icon"></i></a>
+                <a href=""><i class="fab fa-instagram-square icon"></i></a>
+                <a href=""><i class="fab fa-linkedin icon"></i></a>
+                <a href=""><i class="fas fa-envelope icon"></i></a>
+            </div>
+
+        </div>
+        <p class="footer_derechos"> ® 2023 Gimnasio La Unión</p>
+    </div>
+</footer>
+
+</html>

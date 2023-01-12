@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/Normalize.css">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f696794974.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header_container ">
+            <img class="logo" src="../img/logo.png" alt="" />
+
+            <section class="header_section">
+
+                <img class="header_img_title" src="../img/titulo header.png" alt="">
+
+            </section>
+            <nav class="nav">
+                <div class="nav__container">
+                    <label for="menu" class="nav_label">
+                        <img class="nav_menu_hambur" src="/img/menu.svg" alt="">
+                    </label>
+                    <input type="checkbox" onchange="activar()" id="menu" class="nav_input">
+
+                    <div class="nav__menu">
+                        <a class="nav__items nav_items_cta" onclick="desactivar()"  href="/views/../index.html">
+                            <div class="icons"><i class='bx bxs-home'></i></div>Inicio
+                        </a>
+                        <a class="nav__items" onclick="desactivar()"  href="/views/Admisiones.html">
+                            <div class="icons"><i class='bx bx-child'></i></div>Admisiones
+                        </a>
+                        <a class="nav__items " onclick="desactivar()"  href="/views/contacto.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Contactame
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()"  href="/views/proyecto.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Proyecto Institucional
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()"  href="/views/Especialidades.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Especialidades
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()"  href="/views/Normatividad.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Normatividad
+                        </a>
+                        <a id="oculto" class="nav__items" onclick="desactivar()"  href="/views/galeria.html">
+                            <div class="icons"><i class='bx bxs-contact'></i></div>Galeria de Fotos
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <nav class="nav__menu_option">
+
+        <a class="nav__items_option" id="menu1" href="/views/proyecto.html">Proyecto Institucional</a>
+        <a class="nav__items_option" id="menu2" href="/views/Especialidades.html">Especialidades</a>
+        <a class="nav__items_option" id="menu3" href="/views/Normatividad.html">Normatividad</a>
+        <a class="nav__items_option" id="menu4" href="/views/galeria.html">Galeria de Fotos</a>
+
+    </nav>
+
+
+    <main class="main">
+        <div id="main_container" class="main_container">
+            <h1 class="main_title">CONTÁCTANOS</h1>
+            <P class="main_text">¿Tienes alguna inquietud?, por favor completa el siguiente formulario y te
+                responderemos lo antes
+                posible. </P>
+            <div class="main_principal">
+                <form class="form" action="https://formsubmit.co/71493f2f6ff7a33325bce8c458fbb48d" method="POST">
+                    <div class="container_inputs">
+                        <input id="nombre" name="nombre" class="input_date" onclick="ocultarplace()" type="text"
+                            placeholder="Nombre completo" required>
+                        <input id="correo" name="correo" class="input_date" type="email" placeholder="Correo" required>
+                        <input id="telefono" name="correo" class="input_date" type="number" placeholder="Teléfono"
+                            required>
+                        <textarea cols="30" name="mensaje" rows="60" id="input_mensaje" class="input_date"
+                            placeholder="Escribe tu mensaje" required></textarea>
+                        <input class="button" type="submit" value="Enviar">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/views/contacto.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+
+                </form>
+                <div class="ubicacion">
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.508051847075!2d-74.27094148545318!3d4.50201109672878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f0b004342cff3%3A0x38144bcccd0998c5!2sV%C3%ADa%20Vda.%20la%20Union%2C%20Sibat%C3%A9%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1673555306734!5m2!1ses!2sco"
+                        width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <p class="tel">Puedes contactar con nosostros a tráves de los siguientes telefonos</p>
+            <p class="tel">305 9236151</p>
+        </div>
+    </main>
+    <script src="../js/index.js"></script>
+</body>
+
+<footer>
+    <div class="footer_container">
+        <img class="footer_background" src="../img/col/domo2.png" alt="">
+        <img class="footer_img2" src="../img/ave.png" alt="">
+        <div class="footer_icons">
+            <img class="footer_img" src="../img/Nube.png" alt="">
+            <div class="footer_container_img">
+                <a href=""><i class="fab fa-facebook icon"></i></a>
+                <a href=""><i class="fab fa-instagram-square icon"></i></a>
+                <a href=""><i class="fab fa-linkedin icon"></i></a>
+                <a href=""><i class="fas fa-envelope icon"></i></a>
+            </div>
+
+        </div>
+        <p class="footer_derechos"> ® 2023 Gimnasio La Unión</p>
+    </div>
+</footer>
+
+</html>

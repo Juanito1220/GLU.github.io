@@ -129,6 +129,7 @@ main {
 .main_img {
     width: 70%;
     height: 500px;
+    object-fit: cover;
 }
 
 .prev,
@@ -1010,28 +1011,28 @@ main {
         margin: 11px;
     }
 
+}
 
-    @media screen and (max-width:389px) {
-        .footer_derechos {
-            left: 30%;
-        }
+@media screen and (max-width:389px) {
+    .footer_derechos {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:372px) {
+
+    .footer_derechos {
+        left: 35%;
+        font-size: 7px;
     }
 
-    @media screen and (max-width:372px) {
+    .footer_img {
+        width: 80px;
+        height: 50px;
+    }
 
-        .footer_derechos {
-            left: 35%;
-            font-size: 7px;
-        }
-
-        .footer_img {
-            width: 80px;
-            height: 50px;
-        }
-
-        .icon {
-            font-size: 15px;
-        }
+    .icon {
+        font-size: 15px;
     }
 
     .body_section_container_car {
@@ -1067,4 +1068,3 @@ main {
     }
 
 }
-

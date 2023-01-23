@@ -77,14 +77,14 @@
     </nav>
 
 
-    <main class="main">
+    <main class="main" id="main">
         <div id="main_container" class="main_container">
             <h1 class="main_title">CONTÁCTANOS</h1>
             <P class="main_text">¿Tienes alguna inquietud?, por favor completa el siguiente formulario y te
                 responderemos lo antes
                 posible. </P>
             <div class="main_principal">
-                <form class="form" action="https://formsubmit.co/71493f2f6ff7a33325bce8c458fbb48d" method="POST">
+                <form id="form" class="form" action="https://formsubmit.co/d2514912be521e9fc99d9bc56f9b88e4" method="POST">
                     <div class="container_inputs">
                         <input id="nombre" name="nombre" class="input_date" onclick="ocultarplace()" type="text"
                             placeholder="Nombre completo" required>
@@ -93,12 +93,13 @@
                             required>
                         <textarea cols="30" name="mensaje" rows="60" id="input_mensaje" class="input_date"
                             placeholder="Escribe tu mensaje" required></textarea>
-                        <input class="button" type="submit" value="Enviar">
+                        <input id="envio" class="button" type="submit" value="Enviar">
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/views/contacto.html">
                         <input type="hidden" name="_captcha" value="false">
                     </div>
 
                 </form>
+
                 <div class="ubicacion">
                     <iframe class="mapa"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.508051847075!2d-74.27094148545318!3d4.50201109672878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f0b004342cff3%3A0x38144bcccd0998c5!2sV%C3%ADa%20Vda.%20la%20Union%2C%20Sibat%C3%A9%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1673555306734!5m2!1ses!2sco"
@@ -107,10 +108,11 @@
                 </div>
             </div>
             <p class="tel">Puedes contactar con nosostros a tráves de los siguientes telefonos</p>
-            <p class="tel">305 9236151</p>
+            <p class="tel">3059236151-3102545787</p>
         </div>
     </main>
-    <script src="../js/index.js"></script>
+    <script src="../js/contacto.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 <footer>

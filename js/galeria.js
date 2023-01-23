@@ -1,5 +1,5 @@
 let elemento = document.getElementById("menu");
-let contenedor = document.getElementById("main_container")
+let contenedor = document.getElementById("main")
 
 
 function desactivar() {

@@ -140,7 +140,6 @@ body {
 .form {
     height: 500px;
     width: 40%;
-
 }
 
 #input_mensaje {
@@ -158,6 +157,7 @@ body {
     justify-content: space-around;
 
 }
+
 
 .container_inputs {
     padding: 20px;
@@ -706,10 +706,6 @@ body {
     a.nav__items {
         margin: auto;
     }
-
-    .space {
-        margin-top: 90px;
-    }
 }
 
 @media screen and (max-width:545px) {
@@ -821,6 +817,10 @@ body {
 
     }
 
+    .space {
+        margin-top: 99px;
+    }
+
 }
 
 @media screen and (max-width:436px) {
@@ -876,34 +876,33 @@ body {
         margin: 11px;
     }
 
+}
 
-    @media screen and (max-width:389px) {
-        .footer_derechos {
-            left: 30%;
-        }
+@media screen and (max-width:389px) {
+    .footer_derechos {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:372px) {
+
+    .tel {
+        font-size: 14px;
     }
 
-    @media screen and (max-width:372px) {
-
-        .tel{
-            font-size: 14px;
-        }
-
-        .footer_derechos {
-            left: 35%;
-            font-size: 7px;
-        }
-
-        .footer_img {
-            width: 80px;
-            height: 50px;
-        }
-
-        .icon {
-            font-size: 15px;
-        }
+    .footer_derechos {
+        left: 35%;
+        font-size: 7px;
     }
 
+    .footer_img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:347px) {

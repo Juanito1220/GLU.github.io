@@ -1,6 +1,6 @@
 let elemento3 = document.getElementById("menu");
 console.log(elemento3)
-let contenedor3=document.getElementById("main_principal");
+let contenedor3=document.getElementById("main");
 
 function desactivar() {
     elemento3.checked = false

@@ -39,25 +39,25 @@
                     <input type="checkbox" onchange="activar()" id="menu" class="nav_input">
 
                     <div class="nav__menu">
-                        <a class="nav__items nav_items_cta" href="/views/../index.html">
+                        <a class="nav__items nav_items_cta" onclick="desactivar()" href="/views/../index.html">
                             <div class="icons"><i class='bx bxs-home'></i></div>Inicio
                         </a>
-                        <a class="nav__items" href="/views/Admisiones.html">
+                        <a class="nav__items" onclick="desactivar()" href="/views/Admisiones.html">
                             <div class="icons"><i class='bx bx-child'></i></div>Admisiones
                         </a>
-                        <a class="nav__items " href="/views/contacto.html">
+                        <a class="nav__items " onclick="desactivar()" href="/views/contacto.html">
                             <div class="icons"><i class='bx bxs-contact'></i></div>Contactame
                         </a>
-                        <a id="oculto" class="nav__items" href="/views/proyecto.html">
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/proyecto.html">
                             <div class="icons"><i class='bx bxs-contact'></i></div>Proyecto Institucional
                         </a>
-                        <a id="oculto" class="nav__items" href="/views/Especialidades.html">
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/Especialidades.html">
                             <div class="icons"><i class='bx bxs-contact'></i></div>Especialidades
                         </a>
-                        <a id="oculto" class="nav__items" href="/views/Normatividad.html">
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/Normatividad.html">
                             <div class="icons"><i class='bx bxs-contact'></i></div>Normatividad
                         </a>
-                        <a id="oculto" class="nav__items" href="/views/galeria.html">
+                        <a id="oculto" class="nav__items" onclick="desactivar()" href="/views/galeria.html">
                             <div class="icons"><i class='bx bxs-contact'></i></div>Galeria de Fotos
                         </a>
 
@@ -77,16 +77,45 @@
     </nav>
 
 
-    <main class="main">
-        <div id="main_container" class="main_container">
-            <h1 class="main_title">PROCESO DE ADMISIONES</h1>
-            <div class="main_cards">
-                <img class="main_img" src="../img/col/cuerpo espin.png" alt="">
-                <div class="card"></div>
+    <main class="main" id="main">
+        <div class="main_principal">
+            <div id="main_container" class="main_container">
+                <h1 class="main_title">PROCESO DE ADMISIONES</h1>
+                <img class="main_img" src="../img/col/cuerpo espin2.png" alt="">
+                <div class="main_contener_cards">
+                    <div class="card" id="card1">
+                        <h1 class="title_card">PASO 1</h1>
+                        <h1 class="title_card2">INSCRIPCIÓN</h1>
+                        <P class="text_card" id="text_card1">Este documento recopila la información básica de los padres de familia y el estudiante aspirante al GLU.</P>
+                    </div>
+                    <div class="card" id="card2">
+                        <h1 class="title_card">PASO 2</h1>
+                        <h1 class="title_card2">BASE DE DATOS</h1>
+                        <P class="text_card" id="text_card2">Recopilamos esta información y analizamos cual de nuestrosgrados es el ideal para nuestro estudiante.</P>
+                    </div>
+                    <div class="card" id="card3">
+                        <h1 class="title_card">PASO 3</h1>
+                        <h1 class="title_card2">ADMISIONES</h1>
+                        <P class="text_card" id="text_card3">Invitamos a la familia GLU para dar un paseíto por nuestras
+                            instalaciones y explicamos nuestra visión y misión del GLU.</P>
+                    </div>
+                    <div class="card" id="card4">
+                        <h1 class="title_card">PASO 4</h1>
+                        <h1 class="title_card2">MATRICULA</h1>
+                        <P class="text_card" id="text_card4">Si ya estas muy enamorado en nuestra institución,
+                            seguiremos con la orden de matricula para que puedas hacer parte de nuestra gran familia
+                            GLU.</P>
+                    </div>
+
+                </div>
             </div>
+
         </div>
+
     </main>
-    <script src="../js/index.js"></script>
+
+
+    <script src="../js/admisiones.js"></script>
 </body>
 
 <footer>

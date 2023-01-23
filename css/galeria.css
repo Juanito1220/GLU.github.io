@@ -111,7 +111,8 @@ body {
     align-items: center;
 
 }
-#menu4{
+
+#menu4 {
     background-color: rgb(3, 38, 120);
     padding: 3px;
     border-radius: 5px;
@@ -126,7 +127,7 @@ body {
 }
 
 
-.main_title{
+.main_title {
     text-align: center;
     position: relative;
     width: 80%;
@@ -134,14 +135,14 @@ body {
     color: rgb(7, 51, 89);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     z-index: 1;
-    
+
 }
 
-.main_container{
-    background-color:var(--color1) ;
+.main_container {
+    background-color: var(--color1);
 }
 
-.main_title::before{
+.main_title::before {
     content: "";
     display: block;
     width: 100%;
@@ -152,9 +153,9 @@ body {
     z-index: -1;
 }
 
-.title{
-   background-color:var(--color1) ;
-   padding: 0 15px;
+.title {
+    background-color: var(--color1);
+    padding: 0 15px;
 }
 
 .main_galery {
@@ -171,11 +172,11 @@ body {
     transition: 1s;
 }
 
-.main_galery img:hover{
+.main_galery img:hover {
     transform: scale(1.2);
-} 
+}
 
-.full_img{
+.full_img {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
@@ -188,7 +189,7 @@ body {
     z-index: 99;
 }
 
-.full_img span{
+.full_img span {
     position: absolute;
     top: 5%;
     right: 5%;
@@ -197,7 +198,7 @@ body {
     cursor: pointer;
 }
 
-.full_img img{
+.full_img img {
     width: 90%;
     max-width: 900px;
 }
@@ -326,7 +327,7 @@ body {
     .main {
         height: 920px;
     }
-   
+
 }
 
 @media screen and (max-width:1200px) {
@@ -354,6 +355,7 @@ body {
     .main {
         height: 880px;
     }
+
     .nav__items {
 
         width: 90px;
@@ -362,11 +364,12 @@ body {
         font-size: 14px;
     }
 }
+
 @media screen and (max-width:1084px) {
     .main {
         height: 830px;
     }
-   
+
 }
 
 
@@ -448,13 +451,14 @@ body {
 
 @media screen and (max-width:987px) {
 
-    .title{
+    .title {
         font-size: 30px;
     }
+
     .main {
         height: 740px;
     }
-   
+
 }
 
 @media screen and (max-width:975px) {
@@ -488,9 +492,10 @@ body {
         height: 1180px;
     }
 
-    .title{
+    .title {
         font-size: 25px;
     }
+
     .footer_derechos {
         font-size: 15px;
     }
@@ -505,6 +510,7 @@ body {
     .main {
         height: 1130px;
     }
+
     footer {
         height: 300px;
     }
@@ -530,7 +536,7 @@ body {
     .main {
         height: 1090px;
     }
-   
+
 }
 
 @media screen and (max-width:716px) {
@@ -538,7 +544,7 @@ body {
     .main {
         height: 1040px;
     }
-   
+
 }
 
 
@@ -561,7 +567,7 @@ body {
         width: 80%;
     }
 
-    .title{
+    .title {
         font-size: 20px;
     }
 
@@ -601,7 +607,7 @@ body {
     .main {
         height: 980px;
     }
-   
+
 }
 
 @media screen and (max-width:636px) {
@@ -758,7 +764,7 @@ body {
         height: 100px;
     }
 
-    
+
 
     .icon {
         font-size: 22px;
@@ -767,15 +773,18 @@ body {
 
 @media screen and (max-width:503px) {
 
-    .main_title{
+    .main_title {
         margin-top: 20px;
     }
-    .header{
+
+    .header {
         height: 130px;
     }
+
     .main {
         height: 750px;
     }
+
     footer {
         height: 210px;
     }
@@ -885,6 +894,7 @@ body {
     .main {
         height: 700px;
     }
+
     .main_galery {
         grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     }
@@ -920,51 +930,51 @@ body {
     .icon {
         margin: 11px;
     }
-
-
-    @media screen and (max-width:389px) {
-
-        .title{
-            font-size: 18px;
-        }
-
-        .main{
-            height: 670px;
-        }
-        .footer_derechos {
-            left: 30%;
-        }
-    }
-
-    @media screen and (max-width:372px) {
-
-        .footer_derechos {
-            left: 35%;
-            font-size: 7px;
-        }
-
-        .footer_img {
-            width: 80px;
-            height: 50px;
-        }
-
-        .main {
-            height: 620px;
-        }
-
-        .icon {
-            font-size: 15px;
-        }
-    }
-
 }
+
+@media screen and (max-width:389px) {
+
+    .title {
+        font-size: 18px;
+    }
+
+    .main {
+        height: 670px;
+    }
+
+    .footer_derechos {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:372px) {
+
+    .footer_derechos {
+        left: 35%;
+        font-size: 7px;
+    }
+
+    .footer_img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .main {
+        height: 620px;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
+}
+
 
 @media screen and (max-width:363px) {
     .main_galery {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 20px;
     }
-    
+
 
 }
 

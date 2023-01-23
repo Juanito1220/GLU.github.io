@@ -3,6 +3,7 @@ let contenedor = document.getElementById("main_container");
 
 
 function desactivar() {
+    contenedor.classList.remove("space");
     elemento.checked = false
 }
 

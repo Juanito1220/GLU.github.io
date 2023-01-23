@@ -2,6 +2,7 @@ let elemento2 = document.getElementById("menu");
 let contenedor2=document.getElementById("main");
 
 function desactivar() {
+    contenedor2.classList.remove("space2");
     elemento2.checked = false
 }
 

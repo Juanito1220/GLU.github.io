@@ -901,6 +901,10 @@ body {
         font-size: 18px;
     }
 
+    .space2 {
+        margin-top: 110px;
+    }
+
 }
 
 @media screen and (max-width:436px) {

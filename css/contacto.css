@@ -706,6 +706,10 @@ body {
     a.nav__items {
         margin: auto;
     }
+
+    .space {
+        margin-top: 90px;
+    }
 }
 
 @media screen and (max-width:545px) {

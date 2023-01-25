@@ -173,6 +173,24 @@ body {
     margin-left: 50px;
 }
 
+#mascota{
+    height: 200px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+#bandera{
+    height: 220px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+#escudo{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+}
+
 .image_title {
     font-family: 'Kavoon', cursive;
 }

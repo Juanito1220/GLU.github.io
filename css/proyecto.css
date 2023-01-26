@@ -346,8 +346,13 @@ body {
 
     .image_card {
         height: 200px;
-
     }
+
+    
+    .text_back {
+        word-spacing: -2px;
+    }
+
 
     .image_title {
         font-size: 25px;

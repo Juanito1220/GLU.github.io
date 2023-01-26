@@ -451,9 +451,6 @@ main {
         font-size: 14px;
     }
 
-    .car_text{
-        letter-spacing: -0.5px;
-    }
 }
 
 
@@ -703,9 +700,10 @@ main {
         font-size: 13px;
     }
 
-    .text_contener{
+    .text_contener {
+        word-spacing: -0.9px;
         text-align: justify;
-       
+
     }
 
     .main_img {
@@ -848,7 +846,7 @@ main {
     }
 
     .text_contener {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .icon {
@@ -1060,7 +1058,7 @@ main {
         width: 120px;
     }
 
-   
+
 
     .body_section_container_car {
         height: 410px;

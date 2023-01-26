@@ -450,6 +450,10 @@ main {
         margin-top: 3px;
         font-size: 14px;
     }
+
+    .car_text{
+        letter-spacing: -0.5px;
+    }
 }
 
 
@@ -697,6 +701,11 @@ main {
 
     .text_contener {
         font-size: 15px;
+    }
+
+    .text_contener{
+        text-align: center;
+       
     }
 
     .main_img {
@@ -1057,6 +1066,8 @@ main {
         height: 60px;
         width: 120px;
     }
+
+   
 
     .body_section_container_car {
         height: 410px;

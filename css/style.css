@@ -312,6 +312,9 @@ main {
         font-size: 50px;
     }
 
+    .text_contener {
+        padding: 2%;
+    }
 
     .header_img_title {
         width: 70%;
@@ -447,7 +450,6 @@ main {
         margin-top: 3px;
         font-size: 14px;
     }
-
 }
 
 
@@ -567,7 +569,7 @@ main {
     }
 
     .icon {
-        margin: 13px;
+        margin: 20px;
     }
 
     .body_section_container_car {
@@ -644,8 +646,6 @@ main {
         height: 430px;
     }
 
-    
-
     .footer_container {
         height: 280px;
     }
@@ -669,21 +669,16 @@ main {
     .icon {
         width: 6px;
         height: 6px;
+        margin: 13px;
     }
 }
 
 @media screen and (max-width:661px) {
     .text_title {
-        font-size: 18px;
+        font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         letter-spacing: 0;
     }
-
-    .text_contener{
-        font-size: 12px;
-    }
-
-
 
 }
 
@@ -697,17 +692,7 @@ main {
     }
 
     .text_contener {
-        word-spacing: -0.9px;
-        text-align: justify;
-    }
-
-    .text_title{
-        font-size:17px ;
-    }
-
-    .text_contener{
-        text-align: center;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .main_img {
@@ -850,7 +835,7 @@ main {
     }
 
     .text_contener {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .icon {
@@ -892,7 +877,7 @@ main {
 
     .icon {
         font-size: 18px;
-        margin: 10px;
+        margin: 13px;
     }
 }
 
@@ -918,6 +903,10 @@ main {
         font-size: 14px;
     }
 
+    .text_contener {
+        font-size: 14px;
+    }
+
     .nav__items {
         font-size: 12px;
         width: 160px;
@@ -931,6 +920,10 @@ main {
     #oculto {
         padding: 8px;
 
+    }
+
+    .icon{
+        margin: 10px;
     }
 
 }
@@ -965,6 +958,13 @@ main {
         height: 80px;
     }
 
+    .text_title {
+        font-size: 14px;
+    }
+
+    .text_contener {
+        font-size: 13px;
+    }
 
     .car_title {
         font-size: 14px;
@@ -1058,8 +1058,6 @@ main {
         width: 120px;
     }
 
-
-
     .body_section_container_car {
         height: 410px;
     }
@@ -1067,6 +1065,10 @@ main {
     .footer_derechos {
         left: 32%;
         font-size: 7px;
+    }
+
+    .icon{
+        margin: 6px;
     }
 
 }

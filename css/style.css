@@ -212,7 +212,7 @@ main {
 .text_title {
     color: rgb(252, 215, 4);
     text-align: center;
-    padding: 2%;
+    padding: 4%;
     font-family: 'Anton', sans-serif;
     font-size: 60px;
 }
@@ -570,7 +570,7 @@ main {
     }
 
     .icon {
-        margin: 20px;
+        margin: 13px;
     }
 
     .body_section_container_car {
@@ -647,10 +647,7 @@ main {
         height: 430px;
     }
 
-    .footer_container_img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 
     .footer_container {
         height: 280px;
@@ -697,12 +694,9 @@ main {
     }
 
     .text_contener {
-        font-size: 13px;
-    }
-
-    .text_contener {
         word-spacing: -0.9px;
         text-align: justify;
+        font-size: 12px;
 
     }
 
@@ -888,7 +882,7 @@ main {
 
     .icon {
         font-size: 18px;
-        margin: 15px;
+        margin: 10px;
     }
 }
 
@@ -1008,7 +1002,7 @@ main {
     }
 
     .icon {
-        margin: 11px;
+        margin: 8px;
     }
 
 }

@@ -312,9 +312,6 @@ main {
         font-size: 50px;
     }
 
-    .text_contener {
-        padding: 2%;
-    }
 
     .header_img_title {
         width: 70%;
@@ -677,17 +674,13 @@ main {
 
 @media screen and (max-width:661px) {
     .text_title {
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         letter-spacing: 0;
     }
 
-    .text_title{
-        font-size:20px ;
-    }
-
     .text_contener{
-        font-size: 15px;
+        font-size: 12px;
     }
 
 
@@ -714,7 +707,7 @@ main {
 
     .text_contener{
         text-align: center;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .main_img {

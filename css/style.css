@@ -818,6 +818,10 @@ main {
     .space {
         margin-top: 90px;
     }
+
+    .text_contener{
+        word-spacing:-1px ;
+    }
 }
 
 @media screen and (max-width:515px) {
@@ -929,6 +933,10 @@ main {
 }
 
 @media screen and (max-width:436px) {
+
+    .text_contener{
+        word-spacing: -2px;
+    }
     .footer_derechos {
         font-size: 9px;
         left: 32%;
@@ -1039,6 +1047,8 @@ main {
 
         height: 470px;
     }
+
+    
 
 }
 

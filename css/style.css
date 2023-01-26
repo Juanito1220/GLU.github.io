@@ -682,6 +682,16 @@ main {
         letter-spacing: 0;
     }
 
+    .text_title{
+        font-size:20px ;
+    }
+
+    .text_contener{
+        font-size: 15px;
+    }
+
+
+
 }
 
 @media screen and (max-width:591px) {
@@ -696,8 +706,14 @@ main {
     .text_contener {
         word-spacing: -0.9px;
         text-align: justify;
-        font-size: 12px;
+    }
 
+    .text_title{
+        font-size:17px ;
+    }
+
+    .text_contener{
+        font-size: 13px;
     }
 
     .main_img {

@@ -222,6 +222,7 @@ main {
     text-align: justify;
     padding: 3%;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .car_title {
@@ -692,7 +693,8 @@ main {
     }
 
     .text_contener {
-        font-size: 15px;
+        font-size: 14px;
+        word-spacing: -1.3px;
     }
 
     .main_img {
@@ -735,6 +737,7 @@ main {
     .icon {
         font-size: 24px;
     }
+
 
 }
 
@@ -835,7 +838,7 @@ main {
     }
 
     .text_contener {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .icon {

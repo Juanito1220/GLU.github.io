@@ -212,7 +212,7 @@ main {
 .text_title {
     color: rgb(252, 215, 4);
     text-align: center;
-    padding: 2%;
+    padding: 4%;
     font-family: 'Anton', sans-serif;
     font-size: 60px;
 }
@@ -819,9 +819,6 @@ main {
         margin-top: 90px;
     }
 
-    .text_contener{
-        word-spacing:-1px ;
-    }
 }
 
 @media screen and (max-width:515px) {

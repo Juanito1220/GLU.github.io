@@ -713,6 +713,7 @@ main {
     }
 
     .text_contener{
+        text-align: center;
         font-size: 13px;
     }
 
@@ -969,10 +970,6 @@ main {
     .logo {
         width: 100px;
         height: 80px;
-    }
-
-    .text_title {
-        font-size: 14px;
     }
 
 

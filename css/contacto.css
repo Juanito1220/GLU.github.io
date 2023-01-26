@@ -538,11 +538,6 @@ body {
         width: 80%;
     }
 
-    .footer_container_img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .footer_container {
         height: 280px;
     }
@@ -566,6 +561,7 @@ body {
     .icon {
         width: 6px;
         height: 6px;
+        margin: 15px;
     }
 }
 
@@ -635,6 +631,7 @@ body {
 
     .icon {
         font-size: 24px;
+
     }
 
 }
@@ -778,7 +775,7 @@ body {
 
     .icon {
         font-size: 18px;
-        margin: 15px;
+        margin: 11px;
     }
 }
 
@@ -864,6 +861,10 @@ body {
     .mapa{
         height: 400px;
     }
+
+    .icon{
+        margin:10px
+    }
 }
 
 @media screen and (max-width:397px) {
@@ -890,7 +891,7 @@ body {
     }
 
     .icon {
-        margin: 11px;
+        margin: 8px;
     }
 
 }

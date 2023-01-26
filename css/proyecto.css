@@ -310,19 +310,19 @@ body {
 
     #bandera {
         width: 50%;
-        height:70%;
+        height: 70%;
         margin-left: 15px;
     }
 
     #escudo {
         width: 38%;
-        height:70%;
+        height: 70%;
         margin-left: 15px;
     }
 
     #mascota {
         width: 60%;
-        height:70%;
+        height: 70%;
         margin-left: 15px;
     }
 }
@@ -348,7 +348,7 @@ body {
         height: 200px;
     }
 
-    
+
     .text_back {
         word-spacing: -2px;
     }
@@ -427,19 +427,19 @@ body {
 
     #bandera {
         width: 60%;
-        height:70%;
+        height: 70%;
         margin-left: 20px;
     }
 
     #escudo {
         width: 38%;
-        height:70%;
+        height: 70%;
         margin-left: 50px;
     }
 
     #mascota {
         width: 60%;
-        height:70%;
+        height: 70%;
         margin-left: 15px;
     }
 
@@ -505,21 +505,22 @@ body {
     .text_back {
         font-size: 13px;
     }
+
     #bandera {
         width: 70%;
-        height:70%;
+        height: 70%;
         margin-left: 15px;
     }
 
     #escudo {
         width: 45%;
-        height:70%;
+        height: 70%;
         margin-left: 30px;
     }
 
     #mascota {
         width: 70%;
-        height:70%;
+        height: 70%;
         margin-left: 10px;
     }
 
@@ -576,19 +577,19 @@ body {
 
     #bandera {
         width: 50%;
-        height:40%;
+        height: 40%;
         margin-left: 15px;
     }
 
     #escudo {
         width: 35%;
-        height:50%;
+        height: 50%;
         margin-left: 30px;
     }
 
     #mascota {
         width: 60%;
-        height:50%;
+        height: 50%;
         margin-left: 10px;
     }
 
@@ -666,19 +667,19 @@ body {
 
     #bandera {
         width: 50%;
-        height:40%;
+        height: 40%;
         margin-left: 25px;
     }
 
     #escudo {
         width: 35%;
-        height:45%;
+        height: 45%;
         margin-left: 30px;
     }
 
     #mascota {
         width: 65%;
-        height:50%;
+        height: 50%;
         margin-left: 10px;
     }
 
@@ -712,10 +713,6 @@ body {
         width: 80%;
     }
 
-    .footer_container_img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .footer_container {
         height: 280px;
@@ -740,6 +737,7 @@ body {
     .icon {
         width: 6px;
         height: 6px;
+        margin: 13px;
     }
 }
 
@@ -779,19 +777,19 @@ body {
 
     #bandera {
         width: 40%;
-        height:55%;
+        height: 55%;
         margin-left: 35px;
     }
 
     #escudo {
         width: 30%;
-        height:70%;
+        height: 70%;
         margin-left: 40px;
     }
 
     #mascota {
         width: 50%;
-        height:70%;
+        height: 70%;
         margin-left: 30px;
     }
 
@@ -941,19 +939,19 @@ body {
 
     #bandera {
         width: 55%;
-        height:55%;
+        height: 55%;
         margin-left: 20px;
     }
 
     #escudo {
         width: 40%;
-        height:70%;
+        height: 70%;
         margin-left: 40px;
     }
 
     #mascota {
         width: 60%;
-        height:55%;
+        height: 55%;
         margin-left: 15px;
     }
 
@@ -982,19 +980,19 @@ body {
 
     #bandera {
         width: 55%;
-        height:55%;
+        height: 55%;
         margin-left: 20px;
     }
 
     #escudo {
         width: 35%;
-        height:50%;
+        height: 50%;
         margin-left: 40px;
     }
 
     #mascota {
         width: 60%;
-        height:55%;
+        height: 55%;
         margin-left: 5px;
     }
 
@@ -1029,7 +1027,6 @@ body {
 
     .icon {
         font-size: 18px;
-        margin: 15px;
     }
 }
 
@@ -1048,7 +1045,7 @@ body {
 
     #bandera {
         width: 50%;
-        height:55%;
+        height: 55%;
         margin-left: 20px;
     }
 
@@ -1078,6 +1075,10 @@ body {
 
     .space2 {
         margin-top: 110px;
+    }
+
+    .icon {
+        margin: 10px;
     }
 
 }
@@ -1129,19 +1130,19 @@ body {
 
     #bandera {
         width: 60%;
-        height:45%;
+        height: 45%;
         margin-left: 20px;
     }
 
     #escudo {
         width: 35%;
-        height:40%;
+        height: 40%;
         margin-left: 40px;
     }
 
     #mascota {
         width: 50%;
-        height:40%;
+        height: 40%;
         margin-left: 20px;
     }
 
@@ -1173,7 +1174,7 @@ body {
     }
 
     .icon {
-        margin: 11px;
+        margin: 8px;
     }
 }
 

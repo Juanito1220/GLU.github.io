@@ -500,11 +500,6 @@ body {
         width: 90%;
     }
 
-    .footer_container_img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .footer_container {
         height: 280px;
     }
@@ -528,6 +523,7 @@ body {
     .icon {
         width: 6px;
         height: 6px;
+        margin: 13px;
     }
 }
 
@@ -711,7 +707,7 @@ body {
 
     .icon {
         font-size: 18px;
-        margin: 15px;
+        margin: 10px;
     }
 }
 
@@ -813,7 +809,7 @@ body {
     }
 
     .icon {
-        margin: 11px;
+        margin: 8px;
     }
 
 }
@@ -864,6 +860,9 @@ body {
     .footer_derechos {
         left: 32%;
         font-size: 7px;
+    }
+    .icon{
+        margin:7px;
     }
 
 }

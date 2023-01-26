@@ -212,7 +212,7 @@ main {
 .text_title {
     color: rgb(252, 215, 4);
     text-align: center;
-    padding: 4%;
+    padding: 2%;
     font-family: 'Anton', sans-serif;
     font-size: 60px;
 }
@@ -222,7 +222,6 @@ main {
     text-align: justify;
     padding: 3%;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .car_title {
@@ -647,6 +646,11 @@ main {
         height: 430px;
     }
 
+    .footer_container_img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .footer_container {
         height: 280px;
     }
@@ -670,7 +674,6 @@ main {
     .icon {
         width: 6px;
         height: 6px;
-        margin: 13px;
     }
 }
 
@@ -693,8 +696,7 @@ main {
     }
 
     .text_contener {
-        font-size: 14px;
-        word-spacing: -1.3px;
+        font-size: 15px;
     }
 
     .main_img {
@@ -737,7 +739,6 @@ main {
     .icon {
         font-size: 24px;
     }
-
 
 }
 
@@ -838,7 +839,7 @@ main {
     }
 
     .text_contener {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .icon {
@@ -880,7 +881,7 @@ main {
 
     .icon {
         font-size: 18px;
-        margin: 13px;
+        margin: 15px;
     }
 }
 
@@ -923,10 +924,6 @@ main {
     #oculto {
         padding: 8px;
 
-    }
-
-    .icon{
-        margin: 10px;
     }
 
 }
@@ -1011,7 +1008,7 @@ main {
     }
 
     .icon {
-        margin: 8px;
+        margin: 11px;
     }
 
 }
@@ -1068,10 +1065,6 @@ main {
     .footer_derechos {
         left: 32%;
         font-size: 7px;
-    }
-
-    .icon{
-        margin: 6px;
     }
 
 }

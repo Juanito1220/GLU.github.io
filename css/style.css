@@ -646,11 +646,6 @@ main {
         height: 430px;
     }
 
-    .footer_container_img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .footer_container {
         height: 280px;
     }
@@ -674,6 +669,7 @@ main {
     .icon {
         width: 6px;
         height: 6px;
+        margin: 15px;
     }
 }
 
@@ -926,6 +922,10 @@ main {
 
     }
 
+    .icon{
+        margin: 10px;
+    }
+
 }
 
 @media screen and (max-width:436px) {
@@ -1008,7 +1008,7 @@ main {
     }
 
     .icon {
-        margin: 11px;
+        margin: 8px;
     }
 
 }

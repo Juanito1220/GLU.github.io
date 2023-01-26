@@ -700,11 +700,11 @@ main {
     }
 
     .text_contener {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .text_contener{
-        text-align: center;
+        text-align: justify;
        
     }
 
@@ -848,7 +848,7 @@ main {
     }
 
     .text_contener {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .icon {
@@ -916,10 +916,6 @@ main {
         font-size: 14px;
     }
 
-    .text_contener {
-        font-size: 14px;
-    }
-
     .nav__items {
         font-size: 12px;
         width: 160px;
@@ -971,9 +967,6 @@ main {
         font-size: 14px;
     }
 
-    .text_contener {
-        font-size: 13px;
-    }
 
     .car_title {
         font-size: 14px;
